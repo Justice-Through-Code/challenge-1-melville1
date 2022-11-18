@@ -55,5 +55,5 @@ def convert_to_fahrenheit():
     fahrenheit = (to_convert - 32) * 5/9
     print(fahrenheit)
 
-convert_to_fahrenheit()
+
 
