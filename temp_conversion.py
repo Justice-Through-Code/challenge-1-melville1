@@ -17,7 +17,7 @@ def convert_100_to_celsius():
 def convert_0_to_celsius():
     # Convert a temperature of 0 degrees fahrenheit to celsius
     # Save this to a variable called celsius_0, and use print() to print out the value
-    celsius_0 =  0 - 32 * 5/9
+    celsius_0 =  (0 - 32) * 5/9
     print(celsius_0)
 
 
@@ -40,3 +40,20 @@ def hotter_temp():
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
     print('30.2 degrees celsius')
+
+# Writing a new function that takes in a number and converts it to Celsius
+def convert_to_celcius():
+    to_convert = int(input(f'what number would you like to convert to celcius? '))
+    celcius = (to_convert - 32) * 5/9
+    print(celcius)
+
+convert_to_celcius()
+
+# Writing a new function that takes in a number and converts it to Fahrenhiet
+def convert_to_fahrenheit():
+    to_convert = int(input(f'what number would you like to convert to fahrenheit? '))
+    fahrenheit = (to_convert - 32) * 5/9
+    print(fahrenheit)
+
+convert_to_fahrenheit()
+
